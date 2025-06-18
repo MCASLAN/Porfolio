@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+
+    /* Заголовок на очень маленьких экранах */
+    .header h1 {
+        font-size: 18px;
+    }
+
+    /* Описание на мельких экранах */
+    .description {
+        font-size: 12px;
+    }
+
+    /* Контент проектов на мобильных */
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 12px;
+    }
+
+    /* Уменьшает размер стрелки */
+    .arrow {
+        font-size: 16px;
+    }
+
+}

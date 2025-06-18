@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    /* Контейнер на планшетах и мобильных */
+    .container {
+        padding: 15px;
+    }
+
+    /* Заголовок уменьшаеться для мобильных устройств */
+    .header h1 {
+        font-size: 20px;
+    }
+
+    /* Описание также уменьшаеться */
+    .description {
+        font-size: 14px;
+    }
+
+    /* Карточка проектов становяться вертикальными */
+    .project-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Стрелка перемещаеться вниз */
+    .arrow {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+}

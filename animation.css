@@ -1,0 +1,40 @@
+/* Анимация появления для карточек проектов */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/* Анимация появления для ссылок, заголовок и блока "О себе" */
+.project-link, .project-links, .header, .about, .projects h2, .social-links{
+    animation: fadeIn 0.5s ease;
+
+}
+
+
+/* Добавляем анимацию для карточек проектов */
+.project-link {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+} 
+
+.project-link:hover {
+    background-color: #cec8c8;
+    transform: scale(1.05);
+} 
+
+/* Добавление анимаций для социальных знаков */
+.social-links img {
+    transition: transform 0.5s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+    transform: rotate(-20deg);
+}
